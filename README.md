@@ -4,3 +4,34 @@ a "library" is a collection of pre-written code that provides specific functions
 
 What is value proposition: why are you different from other works or other person around you? 
 what is metric in lean canvas? metrics are numbers, for instance hoe many customers are getting back to you.
+
+
+Fire base authentication error: 
+🚨 "Access to script at 'Log-in.html' has been blocked by CORS policy: Cross-origin requests are only supported for protocol schemes: chrome, chrome-extension, chrome-untrusted, data, http, https, isolated-app."
+
+this is becasue: 
+Why is this happening?
+Your HTML file is being opened from file:// protocol instead of a local server (e.g., http://localhost).
+Browsers block cross-origin requests from file:// for security reasons.
+Firebase Authentication requires requests to come from a proper web server.
+Solution: Run a Local Server
+Instead of opening the HTML file directly, start a local development server:
+
+Using VS Code Live Server Extension (Easiest)
+Open the project in VS Code.
+Install the Live Server extension (if not already installed).
+Right-click on index.html or login.html and select "Open with Live Server."
+This will start a local server (e.g., http://127.0.0.1:5500 or http://localhost:5500).
+Try logging in again.
+===================================
+.env File Still Pushed to GitHub Despite .gitignore
+Why is this happening?
+If the .env file was added to Git before adding it to .gitignore, it will still be tracked.
+Solution: Remove the .env File from Git History
+Remove the file from tracking (but keep it locally):
+git rm --cached .env
+Commit the change:
+git commit -m "Removed .env from tracking"
+Push the changes to GitHub:
+git push origin yourNameBranch
+Now, the .env file should no longer be pushed to GitHub.

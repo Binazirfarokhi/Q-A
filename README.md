@@ -1,11 +1,11 @@
 # Q-A
 what is library and framework?
 a "library" is a collection of pre-written code that provides specific functions for developers to use in their applications, while a "framework" is a structured set of code that defines the overall architecture of an application, dictating how the code should be organized and providing a foundation for building upon, essentially controlling the flow of the program rather than just offering individual tools; library is a pre build code that you just use , but in framework there are some part that you have to optimzie to make that code work on your project. 
-
+=========================================================
 What is value proposition: why are you different from other works or other person around you? 
 what is metric in lean canvas? metrics are numbers, for instance hoe many customers are getting back to you.
 
-
+=====================================================
 Fire base authentication error: 
 🚨 "Access to script at 'Log-in.html' has been blocked by CORS policy: Cross-origin requests are only supported for protocol schemes: chrome, chrome-extension, chrome-untrusted, data, http, https, isolated-app."
 
@@ -32,8 +32,34 @@ If the .env file was added to Git before adding it to .gitignore, it will still 
 Solution: Remove the .env File from Git History
 Remove the file from tracking (but keep it locally):
 git rm --cached .env
+
+===================================
+
 Commit the change:
 git commit -m "Removed .env from tracking"
 Push the changes to GitHub:
 git push origin yourNameBranch
 Now, the .env file should no longer be pushed to GitHub.
+====================================
+What is .gitignore ?
+.gitignore is a special file used in Git to tell Git which files/folders should not be tracked or uploaded to GitHub.
+Why do we need .gitignore?
+Some files should not be shared in a repository, like:
+Secret keys (.env files)
+Node modules (node_modules/ folder)
+Log files (.log files)
+===========================
+3️⃣ What is .env ?
+.env (environment file) is used to store secret keys and configuration settings.
+Instead of hardcoding API keys in your code, you store them in a .env file.
+Why use .env?
+Security: Keeps secrets out of your public code.
+Flexibility: Allows different settings for development and production.========
+===========================
+📌 Summary
+Term	Meaning
+Cross-Origin Request (CORS)	Browser security rule that blocks requests between different origins (e.g., file:// to http://).
+.gitignore	A Git file that tells Git not to track certain files (e.g., .env, node_modules).
+.env	A file that stores secret keys and settings outside of the public code.
+==============
++========================================

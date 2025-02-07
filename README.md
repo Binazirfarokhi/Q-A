@@ -16,13 +16,15 @@ Browsers block cross-origin requests from file:// for security reasons.
 Firebase Authentication requires requests to come from a proper web server.
 Solution: Run a Local Server
 Instead of opening the HTML file directly, start a local development server:
+cross-origin requests are not acceptable for Fire-base Authenctication.
 
-Using VS Code Live Server Extension (Easiest)
+**Using VS Code Live Server Extension (Easiest)
 Open the project in VS Code.
 Install the Live Server extension (if not already installed).
 Right-click on index.html or login.html and select "Open with Live Server."
 This will start a local server (e.g., http://127.0.0.1:5500 or http://localhost:5500).
-Try logging in again.
+Try logging in again.**
+** 
 ===================================
 .env File Still Pushed to GitHub Despite .gitignore
 Why is this happening?

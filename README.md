@@ -63,3 +63,6 @@ Cross-Origin Request (CORS)	Browser security rule that blocks requests between d
 .env	A file that stores secret keys and settings outside of the public code.
 ==============
 +========================================
+how to add a bulk email to our campaing: 
+https://support.microsoft.com/en-us/office/use-mail-merge-in-word-to-send-bulk-email-messages-0f123521-20ce-4aa8-8b62-ac211dedefa4#BulkMail=macOS
+

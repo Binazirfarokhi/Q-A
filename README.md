@@ -74,3 +74,6 @@ what is webappmanifest " ? there are five essentials that we need to add to this
 event.keycode : which key was pressed  on the keyboard
 event.x
 event.y y loc axis of your cursor 
+
+========================
+toFixed() ; will just show how many digit after the decimal you want to go.

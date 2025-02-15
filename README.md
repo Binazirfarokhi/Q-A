@@ -77,3 +77,5 @@ event.y y loc axis of your cursor
 
 ========================
 toFixed() ; will just show how many digit after the decimal you want to go.
+
+=======

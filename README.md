@@ -70,3 +70,7 @@ https://support.microsoft.com/en-us/office/use-mail-merge-in-word-to-send-bulk-e
 =====
 what is webappmanifest " ? there are five essentials that we need to add to this file. shortname , start_URL , icons : which is array of object , display. 
 
+========
+event.keycode : which key was pressed  on the keyboard
+event.x
+event.y y loc axis of your cursor 

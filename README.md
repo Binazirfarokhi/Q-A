@@ -66,3 +66,7 @@ Cross-Origin Request (CORS)	Browser security rule that blocks requests between d
 how to add a bulk email to our campaing: 
 https://support.microsoft.com/en-us/office/use-mail-merge-in-word-to-send-bulk-email-messages-0f123521-20ce-4aa8-8b62-ac211dedefa4#BulkMail=macOS
 
+
+=====
+what is webappmanifest " ? there are five essentials that we need to add to this file. shortname , start_URL , icons : which is array of object , display. 
+

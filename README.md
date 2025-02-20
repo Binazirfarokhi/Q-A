@@ -79,3 +79,8 @@ event.y y loc axis of your cursor
 toFixed() ; will just show how many digit after the decimal you want to go.
 
 =======
+to see how many recursively item are in a file or folders: 
+right click on folder : 
+servoces --> open terminal on that folder = run this command : ls -al -R
+will show how many elements are inside it?
+===================

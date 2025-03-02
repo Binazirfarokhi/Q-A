@@ -84,3 +84,10 @@ right click on folder :
 servoces --> open terminal on that folder = run this command : ls -al -R
 will show how many elements are inside it?
 ===================
+different between Session storage and local storage?
+Both Session Storage and Local Storage are part of the Web Storage API, allowing web applications to store data in a user's browser. 
+ data will be cleared when the page ends. 
+but for local sotrage which will be your browser Data persists even after closing the browser or restarting the computer.
+When to Use Which?
+Use Session Storage for temporary data that should disappear after a user leaves the page (e.g., a shopping cart that resets on closing the tab).
+Use Local Storage for long-term storage needs, such as saving user preferences, themes, or cached data.

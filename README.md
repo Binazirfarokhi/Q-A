@@ -97,3 +97,19 @@ Can I delete the "Create Block Theme" plugin after creating a theme, while keepi
 
 Answer:
 Yes, you can safely delete the Create Block Theme plugin after generating a theme, as the theme becomes independent. However, the other plugins (MetaSlider, ACF, CPT UI, Kadence Blocks, UpdraftPlus) must remain active for their features to work properly.
+=====
+plesk issue: 
+
+If your Plesk account goes over quota, let me know and I'll unsuspend it.
+
+However, if it stays over quota, the system will automatically suspend it again by the next morning. Before that happens, you'd need to login into Plesk and figure out what's causing the site to go over quota.
+
+Possible reasons could include:
+
+Making Duplicator backups of the site. After downloading a Duplicator backup, delete the package. If you go over while making the Duplicator package, the account isn't suspended immediately, so you can just make it, download it, then delete it.
+Setting your cloud backup to backup to the server. Make sure that it's set to Dropbox, Google Drive, etc
+Having too many plugins or themes. Delete ones that aren't being used.
+Having too-large images. Images from Unsplash can be 5 or 6 MB when downloaded. Make sure to size them down. 
+Having old sites (like the Deployed Site exercise). Delete old ones from the Plesk control panel. 
+
+

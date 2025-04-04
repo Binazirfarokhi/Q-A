@@ -91,3 +91,9 @@ but for local sotrage which will be your browser Data persists even after closin
 When to Use Which?
 Use Session Storage for temporary data that should disappear after a user leaves the page (e.g., a shopping cart that resets on closing the tab).
 Use Local Storage for long-term storage needs, such as saving user preferences, themes, or cached data.
+==========
+WOrdpress : 
+Can I delete the "Create Block Theme" plugin after creating a theme, while keeping others like MetaSlider, ACF, CPT UI, Kadence Blocks, and UpdraftPlus, since their functionality depends on the plugin?
+
+Answer:
+Yes, you can safely delete the Create Block Theme plugin after generating a theme, as the theme becomes independent. However, the other plugins (MetaSlider, ACF, CPT UI, Kadence Blocks, UpdraftPlus) must remain active for their features to work properly.

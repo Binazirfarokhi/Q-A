@@ -150,3 +150,43 @@ Share your project on Social Media (optional).
 
 Note: Any team member can upload the project to the WMDD WordPress handle. Due to the WordPress site’s vulnerability to hacking, use a highly secure password.==
 ====
+What are environment variables?
+They are configuration settings your app needs to run — like:
+Database connection strings
+
+
+API keys
+
+
+Port numbers
+
+
+Secret tokens
+
+
+Third-party service credentials
+
+
+These are often stored in a file like .env, and loaded using libraries such as dotenv in Node.js or python-dotenv in Python.
+
+How to "include" them:
+✅ DO NOT include the actual .env file if it contains sensitive data (like real API keys).
+✅ DO THIS INSTEAD:
+Create a .env.example file (or env.sample or sample.env)
+
+
+Add all required variable names with placeholder values.
+
+
+Example .env.example:
+
+PORT=3000
+DB_URL=your_database_url_here
+API_KEY=your_api_key_here
+
+In your README.md or a note, say:
+
+
+"Please copy .env.example to .env and fill in the appropriate values before running the project."
+
+

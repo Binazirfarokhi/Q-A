@@ -111,5 +111,26 @@ Setting your cloud backup to backup to the server. Make sure that it's set to Dr
 Having too many plugins or themes. Delete ones that aren't being used.
 Having too-large images. Images from Unsplash can be 5 or 6 MB when downloaded. Make sure to size them down. 
 Having old sites (like the Deployed Site exercise). Delete old ones from the Plesk control panel. 
+----------------
+Can I share with him your videos about how to make a website live ?
+We all did CMS course in last to last semester, so currently we are not able to remember how to deploy our Wordpress website in plesk.
+Could you please provide us any references which we can refer to make our landing page live?
+2:37
+https://www.loom.com/share/folder/b30103aaf859477f88f6ba86ff08fc8d
 
+HERE IS KEVIN ANSWER:  
+That should be it. The basic logic is
+create site locally
+use All In One WP Migration to export that site
+on Plesk, install an empty WordPress
+in that Plesk WP site, install All in One WP Migration
+use All In One to on Plesk WP site to import the site made in localhost.
+All in One has a file size limit of 250MB, I believe, for the free one.
+If over that, you can do it with Duplicator:
+create Duplicator package out of local site
+on Plesk, create DB and DB User with obscure name and pw.
+sftp or file manager transfer the Duplicator package to Plesk
+go to the URL of the installer, run from there.
+Is that what you're looking for, or are they having some issue with a transferred site not working.
+Just about to figure out why Tejinder's project went over quota.....
 

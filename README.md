@@ -130,7 +130,23 @@ If over that, you can do it with Duplicator:
 create Duplicator package out of local site
 on Plesk, create DB and DB User with obscure name and pw.
 sftp or file manager transfer the Duplicator package to Plesk
-go to the URL of the installer, run from there.
+go to the URL of the installer, run from t<img width="594" alt="Screenshot 2025-04-07 at 10 29 09" src="https://github.com/user-attachments/assets/c2f5a94b-8a4e-4934-9c9e-4cc9e153663a" />
+here.
 Is that what you're looking for, or are they having some issue with a transferred site not working.
 Just about to figure out why Tejinder's project went over quota.....
+==============================
+how to publish your projects on WMDD website : 
+Steps to Feature Your Project on the Langara WMDD Website:
 
+Request a WordPress dashboard account from Valentina or Amandeep (via Slack or email vabanina@langara.ca, amandeepsingh@langara.ca).
+
+Create a 1500x1500 px cover image (PNG/JPG/JPEG, under 500 KB) featuring the app logo, mock-up, and tagline.
+
+Fill in the required fields: App Name, Tagline, Team Name, Cover, App Description, and Academic Year.
+
+Optional fields: Team Members' Names, LinkedIn Links, Proposal Document, Landing Page (if applicable), and YouTube Video (promo/demo).
+
+Share your project on Social Media (optional).
+
+Note: Any team member can upload the project to the WMDD WordPress handle. Due to the WordPress site’s vulnerability to hacking, use a highly secure password.==
+====
